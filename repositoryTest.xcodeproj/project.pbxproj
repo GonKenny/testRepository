@@ -13,6 +13,7 @@
 		03E03DA91A791DDC00CFFFC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E03DA81A791DDC00CFFFC6 /* Images.xcassets */; };
 		03E03DAC1A791DDC00CFFFC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E03DAA1A791DDC00CFFFC6 /* LaunchScreen.xib */; };
 		03E03DB81A791DDC00CFFFC6 /* repositoryTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E03DB71A791DDC00CFFFC6 /* repositoryTestTests.swift */; };
+		03E03DC21A7922D400CFFFC6 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E03DC11A7922D400CFFFC6 /* testViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		03E03DB11A791DDC00CFFFC6 /* repositoryTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = repositoryTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E03DB61A791DDC00CFFFC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03E03DB71A791DDC00CFFFC6 /* repositoryTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repositoryTestTests.swift; sourceTree = "<group>"; };
+		03E03DC11A7922D400CFFFC6 /* testViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				03E03DA11A791DDC00CFFFC6 /* AppDelegate.swift */,
 				03E03DA31A791DDC00CFFFC6 /* ViewController.swift */,
 				03E03DA51A791DDC00CFFFC6 /* Main.storyboard */,
+				03E03DC11A7922D400CFFFC6 /* testViewController.swift */,
 				03E03DA81A791DDC00CFFFC6 /* Images.xcassets */,
 				03E03DAA1A791DDC00CFFFC6 /* LaunchScreen.xib */,
 				03E03D9F1A791DDC00CFFFC6 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03E03DC21A7922D400CFFFC6 /* testViewController.swift in Sources */,
 				03E03DA41A791DDC00CFFFC6 /* ViewController.swift in Sources */,
 				03E03DA21A791DDC00CFFFC6 /* AppDelegate.swift in Sources */,
 			);
